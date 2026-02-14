@@ -1,26 +1,29 @@
 # ❤️ Machine Learning-Based Heart Disease Prediction
 
-## 📌 Overview
-This project implements machine learning models to predict the risk of heart disease using clinical patient data obtained from the UCI Machine Learning Repository.
+## 📌 Project Overview
+This project predicts the risk of heart disease using machine learning algorithms based on clinical patient data from the UCI Machine Learning Repository.
 
-The goal of this research is to assist in preliminary heart disease risk assessment using supervised machine learning techniques.
+The objective of this study is to assist in early risk assessment by developing a predictive system using commonly available medical attributes.
 
 ---
 
-## 📊 Dataset
-- UCI Heart Disease Dataset
-- 920 patient clinical records
-- Includes attributes such as:
-  - Age
-  - Chest Pain Type
-  - Blood Pressure
-  - Cholesterol
-  - Fasting Blood Sugar
-  - ECG Results
-  - Maximum Heart Rate
-  - Exercise-Induced Angina
-  - Thalassemia
-  - and more...
+## 📂 Dataset
+Heart Disease Dataset – UCI Machine Learning Repository
+
+Clinical parameters used:
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure
+- Cholesterol
+- Fasting Blood Sugar
+- Rest ECG
+- Maximum Heart Rate
+- Exercise Induced Angina
+- Oldpeak
+- Slope
+- CA
+- Thal
 
 ---
 
@@ -29,22 +32,30 @@ The goal of this research is to assist in preliminary heart disease risk assessm
 - Random Forest Classifier
 - Support Vector Machine (SVM)
 
-Random Forest achieved the highest accuracy of:
+---
 
-**86.9%**
+## 📊 Model Performance
+
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | 79.8% |
+| Random Forest | 86.9% |
+| SVM | 71.1% |
 
 ---
 
-## 🧠 Machine Learning Pipeline
-The following preprocessing steps were applied:
-
-- Missing Value Imputation
-- One-Hot Encoding
-- Feature Scaling
-- Train-Test Split
-
-All preprocessing and training were implemented using a Scikit-Learn Pipeline.
+## 🛠 Technologies Used
+- Python
+- Pandas
+- Scikit-Learn
+- Matplotlib
+- NumPy
 
 ---
 
-## 📁 Project Structure
+## 📈 Results
+The Random Forest classifier achieved the highest accuracy of **86.9%** in predicting heart disease risk.
+
+---
+
+## 📎 Project Structure
