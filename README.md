@@ -59,3 +59,24 @@ The Random Forest classifier achieved the highest accuracy of **86.9%** in predi
 ---
 
 ## 📎 Project Structure
+
+```
+heart-disease-ml/
+│
+├── README.md
+├── requirements.txt
+│
+└── heartdisease_detector/
+    ├── data/
+    │   └── heart_disease_uci.csv
+    │
+    ├── src/
+    │   ├── train_model.py
+    │   └── predict.py
+    │
+    └── results/
+        ├── heart_model.pkl
+        └── accuracy_plot.png
+```
+
+
